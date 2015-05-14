@@ -52,3 +52,4 @@ C:\Users\Technologist\Documents\GitHub\SQLClient-Products\SQLClient-Products\SQL
 C:\Users\Technologist\Documents\GitHub\SQLClient-Products\SQLClient-Products\SQLClient-Products\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Technologist\Documents\GitHub\SQLClient-Products\SQLClient-Products\SQLClient-Products\obj\Debug\SQLClient-Products.dll
 C:\Users\Technologist\Documents\GitHub\SQLClient-Products\SQLClient-Products\SQLClient-Products\obj\Debug\SQLClient-Products.pdb
+C:\Users\Technologist\Documents\GitHub\SQLClient-Products\SQLClient-Products\SQLClient-Products\obj\Debug\SQLClient-Products.csprojResolveAssemblyReference.cache

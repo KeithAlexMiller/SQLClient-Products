@@ -49,7 +49,7 @@ namespace SQLClient_Products.Controllers
             //add the new contact to the database
             if (ProductRepository.InsertProduct(product.Name, product.Description, product.Price, product.ImageUrl))
             {
-                return RedirectToAction("List");
+                return RedirectToAction("Index");
             }
             else
             {
@@ -72,7 +72,7 @@ namespace SQLClient_Products.Controllers
             //update the contacti in the database
             if (ProductRepository.UpdateProduct(id, product.Name, product.Description, product.Price, product.ImageUrl))
             {
-                return RedirectToAction("List");
+                return RedirectToAction("Index");
             }
             else
             {
@@ -88,13 +88,13 @@ namespace SQLClient_Products.Controllers
             //delete thecontact from the database.
             if (ProductRepository.DeleteProduct(id))
             {
-                return RedirectToAction("List"); //go back to the list
+                return RedirectToAction("Index"); //go back to the list
             }
             else
             {
                 //failed
                 ViewBag.Error = "Failed to delete contact.  Set a breakpoint and figure out why!";
-                return RedirectToAction("List");
+                return RedirectToAction("Index");
             }
         }
 

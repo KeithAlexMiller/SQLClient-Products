@@ -67,7 +67,7 @@ namespace SQLClient_Products.Models
                 con.Open();
                 try
                 {
-                    SqlCommand command = new SqlCommand("UPDATE Contacts SET Name = @name, Description = @description, Price = @price, ImageUrl = @imageUrl WHERE ContactId = @contactId", con);
+                    SqlCommand command = new SqlCommand("UPDATE Contacts SET Name = @name, Description = @description, Price = @price, ImageUrl = @imageUrl WHERE ProductId = @ProductId", con);
                     command.Parameters.Add(new SqlParameter("productId", productId));
                     command.Parameters.Add(new SqlParameter("name", name));
                     command.Parameters.Add(new SqlParameter("description", description));
